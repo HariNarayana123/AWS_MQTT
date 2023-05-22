@@ -1,0 +1,16 @@
+1.Create a thing
+2.Download certificates
+3.Attach policy
+
+//Configure AWS IoT Device SDK for python, by running following command
+git clone https://github.com/aws/aws-iot-device-sdk-python.git
+
+//Run followimg commands to install SDK
+1.cd aws-iot-device-sdk-python
+2.sudo python setup.py install
+
+//Run publisher code to publish messages to aws iot core
+python publisher.py
+
+//Run subscriber code to receive messages published to the opic
+python subscriber.py
